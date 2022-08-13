@@ -1,0 +1,1226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(./medias/header/header-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background: rgb(0, 0, 0, 35%);
+}
+
+.div-header-icons{
+    display: flex;
+    margin-left: 370px;
+    padding: 1rem;
+    font-size: 14px;
+}
+
+.list-icons-links{
+    margin-left: 630px;
+    display: flex;
+}
+
+.facebook-icon, .linkedin-icon, .twitter-icon, .pinterest-icon{
+    margin-left: .7rem;
+    margin-top: .2rem;
+}
+
+.phone-icon-header, .email-icon-header{
+    margin-right: .5rem;
+}
+
+.phone-icon-header{
+    margin-top: .1rem;
+}
+
+.email-icon-header{
+    margin-top: .2rem;
+}
+
+.span-email-icon{
+    display: flex;
+    margin-left: 1rem;
+}
+
+.span-header{
+    color: #FFF;
+    display: flex;
+}
+
+
+.follow-us-link{
+    text-decoration: none;
+    color: #0a89ff;
+}
+
+.line-header{
+    height: 1px;
+    background: rgb(255, 255, 255, 25%);
+}
+
+.button-probizz-header{
+    background: none;
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+    font-weight: 700;
+}
+
+.div-subline{
+    display: flex;
+}
+
+.about, .services, .portifolio, .pricing, .our-team, .contact{
+    background: none;
+    color: #FFF;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.title-home-page, .pair-home-page{
+    color: #FFF;
+}
+
+.about-us{
+    background: #FFF;
+    border: none;
+    padding: .5rem 2rem;
+}
+
+.contact-button{
+    background: #0a89ff;
+    border: none;
+    padding: .5rem 2rem;
+    color: #FFF;
+}
+
+.div-subline{
+    padding: 1.6rem;
+    justify-content: space-around;
+}
+
+.div-button-probizz-header{
+    margin-left: 6rem;
+}
+
+.list-buttons-header{
+    margin-right: 6rem;
+}
+
+.section-titles-home-page{
+    text-align: center;
+    margin-top: 19rem;
+    padding-bottom: 20rem;
+}
+
+.div-title-home-page{
+    margin-bottom: 1rem;
+}
+
+.title-home-page{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.div-pair-home-page{
+    margin-bottom: 6rem;
+}
+
+.pair-home-page{
+    color: rgb(255, 255, 255, 70%);
+    font-size: 15px;
+}
+
+.about-us{
+    padding: .9rem 3rem;
+    font-size: 16px;
+    border-radius: .2rem;
+}
+
+.contact-button{
+    padding: .9rem 3.2rem;
+    font-size: 16px;
+    margin-left: 1rem;
+    border-radius: .2rem;
+}
+
+.section-below-home-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    padding: 3rem;
+}
+
+.div-handshake, .div-touch, .div-suitcase{
+    text-align: center;
+    border: solid 1px rgb(0, 0, 0, 5%);
+    margin-right: 2rem;
+    padding: 2rem;
+}
+
+.handshake-img, .touch-img, .suitcase-img, .handshake-our-services, .touch-our-services, .suitcase-our-services, .support-our-services-below{
+    margin-bottom: 1rem;
+    object-fit: contain;
+}
+
+.div-title-handshake, .div-title-touch, .div-title-suitcase{
+    margin-bottom: 1rem;
+}
+
+.title-handshake, .title-touch, .title-suitcase{
+    font-weight: 400;
+    color: #373737;
+    font-size: 18px;
+}
+
+.great, .effective, .best{
+    color: rgb(203, 52, 43);
+    font-weight: 400;
+}
+
+.pair-handshake, .pair-suitcase, .pair-touch{
+    font-size: 14px;
+    color: #777777;
+}
+
+.section-a-little-brief{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9ff;
+    padding: 5rem;
+}
+
+.image-a-little-brief{
+    object-fit: cover;
+}
+
+.div-column-rigth-image{
+    margin-left: 2rem;
+}
+
+.div-title-who-we-are, .div-a-little-brief{
+    margin-bottom: 1rem;
+}
+
+.title-who-we-are{
+    font-weight: 400;
+    color: #6b6b6b;
+    font-size: 18px;
+}
+
+.title-a-little-brief{
+    color: #0a89ff;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.strong-a-little-brief{
+    color: rgb(203, 52, 43);
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.div-pair-01-a-little-brief, .div-pair-02-a-little-brief, .div-pair-03-a-little-brief{
+    margin-bottom: 1rem;
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.4rem;
+}
+
+.section-our-services{
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.row-above, .row-below{
+    display: flex;
+    flex-direction: row;
+}
+
+.div-title-what-we-do{
+    margin-top: 2rem;
+    margin-bottom: .7rem;
+    font-size: 18px;
+}
+
+.title-what-we-do{
+    color: #6b6b6b;
+    font-weight: 400;
+}
+
+.div-title-OUR-SERVICES{
+    margin-bottom: 1rem;
+    font-size: 26px;
+}
+
+.title-OUR-SERVICES{
+    color: #0a89ff;
+}
+
+.strong-OUR{
+    color: rgb(203, 52, 43);
+}
+
+.div-pair-we-work{
+    margin-bottom: 4rem;
+}
+
+.pair-we-work{
+    color: #6b6b6b;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.row-above{
+    margin-left: 2rem;
+}
+
+.row-below{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.div-touch-our-services, .div-handshake-our-services, .div-suitcase-our-services, .div-support-our-services{
+    text-align: center;
+    border: solid 1px rgb(0, 0, 0, 5%);
+    padding: 2rem;
+    margin-right: 2rem;
+}
+
+.div-title-h1-advertising, .div-title-h1-finance, .div-title-h1-branding, .div-title-h1-support{
+    margin-bottom: 1rem;
+}
+
+.title-finance, .title-advertising, .title-branding, .title-support{
+    color: rgb(203, 52, 43);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.pair-finance, .pair-branding, .pair-advertising, .pair-support{
+    color: #6b6b6b;
+    font-size: 14px;
+    line-height: 1.4rem;
+}
+
+.section-our-portifolio{
+    text-align: center;
+    background: #f9f9ff;
+    padding: 1rem;
+}
+
+.div-title-work-sample{
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.title-work-sample{
+    color: #6b6b6b;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.div-our-portifolio{
+    margin-bottom: 1rem;
+    font-size: 26px;
+}
+
+.strong-our{
+    color: rgb(203, 52, 43);
+}
+
+.h1-our-portifolio{
+    color: #0a89ff;
+}
+
+.div-pair-below-our-portifolio{
+    margin-bottom: 3.5rem;
+}
+
+.pair-below-our-portifolio{
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.button-all, .button-development, .button-design, .button-print{
+    background: none;
+    padding: 1rem;
+    border: solid 1px #0a89ff;
+    color: #373737;
+    font-size: 16px;
+}
+
+.button-all, .button-print{
+    padding: .8rem 2.8rem;
+}
+
+.button-design{
+    padding: .8rem 3rem;
+}
+
+.button-development{
+    padding: .8rem 3.5rem;
+}
+
+.image-01, .image-02, .image-03, .image-04, .image-05, .image-06{
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+.image-01, .image-02, .image-03{
+    margin-top: 3rem;
+}
+
+.image-04, .image-05, .image-06{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section-images-row-above, .section-images-row-below{
+    display: flex;
+    justify-content: center ;
+}
+
+.section-contact-now{
+    background-image: url(./medias/section\ contact\ now/wepik-photo-mode-2022619-10550.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 6rem;
+}
+
+.div-we-provide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-we-provide{
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 5rem;
+    margin-right: 7rem;
+}
+
+.strong-do-you-need{
+    color: #0a89ff;
+    font-weight: 400;
+}
+
+.span-button-contact-now{
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+}
+
+.button-contact-now{
+    background: #0a89ff;
+    padding: .8rem 1.8rem;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.section-why-choose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9ff;
+    padding: 4rem;
+}
+
+.div-why-choose{
+    margin-bottom: .5rem;
+}
+
+.title-why-choose{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.strong-we-are-best{
+    color: rgb(203, 52, 43);
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.span-we-are-best{
+    color: #0a89ff;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.div-pair-below-we-are-best{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.pair-below-we-are-best{
+    color: #777777;
+    font-weight: 400;
+    line-height: 1.7rem;
+    font-size: 15px;
+}
+
+.image-list{
+    object-fit: cover;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.div-lists{
+    display: flex;
+}
+
+.list-rigth, .list-left{
+    list-style-type: none;
+}
+
+.row-list-left, .row-list-rigth{
+    margin-top: 1rem;
+    font-size: 16px;
+    color: #373737;
+}
+
+.div-list-rigth{
+    margin-left: 3rem;
+}
+
+.img-list{
+    margin-right: .3rem;
+}
+
+.section-get-touch{
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.div-title-get-touch, .div-title-choose-best{
+    margin-top: 2rem;
+}
+
+.title-get-touch, .title-choose-best{
+    color: #6b6b6b;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.div-subscribe, .div-strong-our{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.strong-subscribe, .strong-our-pricing-plan{
+    color: rgb(203, 52, 43);
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.span-newsletter, .span-pricing-plan{
+    color: #0a89ff;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.div-pair-below-subscribe, .div-pair-below-our-pricing-plan{
+    margin-bottom: 4rem;
+    margin-top: .5rem;
+}
+
+.pair-below-subscribe, .pair-below-our-pricing-plan{
+    color: #6b6b6b;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.input-subscribe{
+    padding: .8rem 6.5rem .8rem .8rem;
+    font-size: 16px;
+    border: solid 1px rgb(0, 0, 0, 15%);
+}
+
+.button-input-email-subscribe{
+    padding: .8rem 3.5rem;
+    font-size: 16px;
+    background: #0a89ff;
+    color: #FFF;
+    border: none;
+}
+
+.section-choose-best{
+    text-align: center;
+    background: #f9f9ff;
+    padding: 2rem;
+}
+
+.plans-columns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2.5rem;
+}
+
+.column-standard-01, .column-standard-02, .column-premium{
+    background: #FFF;
+    margin-right: 2rem;
+}
+
+.div-title-standard, .div-title-standard-02, .div-title-premium{
+    margin-top: .5rem;
+    padding: .8rem 5rem;
+}
+
+.title-standard, .title-standard-02, .title-premium{
+    color: #0a89ff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.subtitle-12, .subtitle-12-02, .subtitle-12-03{
+    background: #0a89ff;
+    font-size: 36px;
+    color: #FFF;
+    font-weight: 400;
+    padding: 1rem 7rem;
+}
+
+.list-pdf-reports, .list-pdf-reports-02, .list-pdf-reports-03{
+    list-style-type: none;
+    color: #6b6b6b;
+    margin-top: 1rem;
+}
+
+.pdf-reports, .basic-quota, .five-brand, .free-support, .private-forums{
+    margin-top: 1.5rem;
+}
+
+.button-below-list-pdf-reports, .button-below-list-pdf-reports-02, .button-below-list-pdf-reports-03{
+    background: #FFF;
+    border: solid 2px #0a89ff;
+    color: #0a89ff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: .5rem 2.3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section-rating{
+    background: url(./medias/section\ rating/bg/wepik-photo-mode-2022623-9547.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 5.5rem;
+}
+
+.div-section-rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-group-icon, .div-star-icon, .div-chess-icon{
+    text-align: center;
+    margin-right: 13rem;
+}
+
+.div-flag-icon{
+    text-align: center;
+}
+
+.div-title-group, .div-title-star, .div-title-chess, .div-title-flag{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.title-group, .title-star, .title-chess, .title-flag{
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.pair-group, .pair-star, .pair-chess, .pair-flag{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.section-meet-our-consultant{
+    background: #f9f9ff;
+    padding: 3rem;
+}
+
+.div-title-we-are-expert, .div-title-meet-our-consultant, .div-pair-below-meet-our{
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.title-we-are-expert{
+    color: #6b6b6b;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.title-meet-our-consultant{
+    color: #0a89ff;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.strong-meet{
+    color: rgb(203, 52, 43);
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.pair-below-meet-our{
+    color: #6b6b6b;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.div-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+.div-jhon, .div-ava, .div-shane{
+    margin-right: 2rem;
+}
+
+.jhon-image, .grame-image, .shane-image, .ava-image{
+    object-fit:cover;
+}
+
+.div-title-jhon-doe, .div-title-ava-smith, .div-title-shane-kyle, .div-title-graeme{
+    background: #0a89ff;
+    color: #FFF;
+    margin-top: -5px;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.title-jhon-doe, .title-ava-smith, .title-shane-kyle, .title-graeme{
+    font-size: 18px;
+}
+
+.subtitle-jhon, .subtitle-ava-smith, .pair-shane-kyle, .subtitle-graeme{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: .5rem;
+}
+
+
+
+.div-title-review, .div-subtitle-review, .div-pair-below-quote, .div-quote-icon, .div-row-image-customer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.div-stars-title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-review{
+    padding: 2rem;
+}
+
+.div-title-review{
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.title-review{
+    color: #6b6b6b;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.subtitle-review{
+    color: #0a89ff;
+    font-size: 36px;
+}
+
+.strong-our-review{
+    color: rgb(203, 52, 43);
+    font-size: 36px;
+}
+
+.div-quote-icon{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.div-pair-below-quote{
+    margin-bottom: 1rem;
+}
+
+.pair-below-quote{
+    color: #777777;
+    font-size: 15px;
+    text-align: center;
+}
+
+.title-henry{
+    font-weight: 400;
+    font-size: 22px;
+    color: #343434;
+}
+
+.div-pair-developer{
+    margin-top: .7rem;
+    margin-bottom: 1rem;
+}
+
+.pair-developer{
+    color: #6b6b6b;
+    font-size: 14px;
+}
+
+.div-row-image-customer{
+    padding-bottom: 2rem;
+}
+
+.image-customer{
+    border-radius: 3rem;
+    margin-right: 5rem;
+    border: solid 3px rgb(214, 211, 211, 20%);
+    box-shadow: 7px 7px 15px 5px rgba(94, 94, 94, 15%);
+}
+
+.image-customer2{
+    border-radius: 3rem;
+    border: solid 3px rgb(214, 211, 211, 20%);
+    box-shadow: 7px 7px 15px 5px rgba(94, 94, 94, 15%);
+}
+
+.div-image-left-arrow{
+    margin-right: 2rem;
+}
+
+.div-image-rigth-arrow{
+    margin-left: 2rem;
+}
+
+.section-up-to-date{
+    background: #f9f9ff;
+    padding: 4rem;
+}
+
+.div-title-up-to-date, .div-subtitle-our-latest, .div-pair-below-our-latest{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.title-up-to-date{
+    font-weight: 400;
+    font-size: 18px;
+    color: #6b6b6b;
+}
+
+.div-subtitle-our-latest{
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle-our-latest{
+    color: #0a89ff;
+    font-size: 36px;
+}
+
+.strong-our-latest{
+    color: rgb(203, 52, 43);
+    font-size: 36px;
+}
+
+.pair-below-our-latest{
+    color: #6b6b6b;
+    font-size: 14px;
+}
+
+.div-pair-below-our-latest{
+    margin-bottom: 3.5rem;
+}
+
+.line-up-section-up-to-date, .line-down-section-up-to-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-image-title-01, .div-image-title-02, .div-image-title-03, .div-image-title-04{
+    display: flex;
+    background: #FFF;
+    box-shadow: 7px 7px 15px 5px rgba(94, 94, 94, 7%);
+}
+
+.div-image-title-03, .div-image-title-04{
+    margin-top: 2rem;
+}
+
+.div-image-title-02, .div-image-title-04{
+    margin-left: 2rem;
+}
+
+.h1-image-title-01, .h1-image-title-02, .h1-image-title-03, .h1-image-title-04{
+    color: #2c3e50;
+    font-size: 18px;
+    margin-top: .8rem;
+    margin-left: .8rem;
+    margin-bottom: .6rem;
+}
+
+.h2-image-title-01, .h2-image-title-02, .h2-image-title-03, .h2-image-title-04{
+    color: #2c3e50;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: .8rem;
+    margin-bottom: .6rem;
+}
+
+.p-image-title-01, .p-image-title-02, .p-image-title-03, .p-image-title-04{
+    font-size: 14px;
+    color: #777777;
+    margin-left: .8rem;
+    margin-bottom: 2.5rem;
+    margin-right: 1rem;
+}
+
+.a-read-more{
+    color: #0a89ff;
+    font-size: 14px;
+    margin-left: .8rem;
+    margin-right: 5.3rem;
+    text-decoration: none;
+}
+
+.a-date{
+    color: #0a89ff;
+    font-size: 14px;   
+    margin-right: .8rem; 
+    text-decoration: none;
+}
+
+.div-btn-browse-more{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.btn-browse-more{
+    background: none;
+    border: none;
+    padding: .8rem 2rem;
+    background-color: #0a89ff;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.div-h1-need{
+    margin-top: 2.5rem;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.h1-need{
+    color: #6b6b6b;
+    font-size: 18px;
+    font-weight: 400;  
+}
+
+.div-subtitle-contact{
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.h1-with-us{
+    color: #0a89ff;
+    font-size: 38px;
+}
+
+.strong-contact-below{
+    color: rgb(203, 52, 43);
+}
+
+.div-pair-need-help{
+    text-align: center;
+}
+
+.pair-need-help{
+    font-size: 14px;
+    color: #777777;
+}
+
+.div-direct-email, .div-phone-icons{
+    display: block;
+    text-align: center;
+}
+
+.div-icon-direct-email, .div-email-icon{
+    margin-right: 9rem;
+}
+
+.div-icon-direct-email, .div-smarthphone{
+    margin-bottom: 5rem;
+    margin-top: 2.7rem;
+}
+
+.div-phone, .div-email-icon{
+    margin-bottom: 7rem;
+}
+
+.direct-icon, .email-icon, .smarthphone, .phone{
+    border: solid 2px #0a89ff;
+    object-fit: contain;   
+    padding: .7rem;
+}
+
+.pair-direct-icon, .pair-email-icon, .pair-smarthphone, .pair-phone{
+    font-size: 14px;
+    color: #777777;
+    margin-top: 1rem;
+}
+
+.div-section-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-form-inputs{
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.input-name, .input-email, .input-subject, .input-textarea{
+    width: 500px;
+    padding: 1rem 0 1rem .8rem;
+    outline: none;
+}
+
+.div-input{
+    margin-top: 1rem;
+}
+
+.div-button-form{
+    text-align: center;
+    margin-top: .8rem;
+    padding-bottom: 5rem;
+}
+
+.btn-submit-form{
+    background:#FFF;
+    border: solid 2px #0a89ff;
+    color:#0a89ff;
+    padding: .8rem 2.5rem;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.outdiv-inputs{
+    margin-left: 3rem;
+}
+
+footer{
+    background: #171a1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.div-h1-footer01{
+    margin-bottom: 2rem;
+}
+
+.h1-footer01, .h1-footer02, .h1-lastest-news{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.div-pair-footer01{
+    margin-bottom: 1.5rem;
+}
+
+.pair-footer01{
+    color: #777777;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.subtitle-footer{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.div-input-footer-text{
+    margin-top: .8rem;
+}
+
+.input-footer-text{
+    padding: .7rem 0;
+    outline: none;
+    border: none;
+}
+
+.button-footer-input-text{
+    background: #0a89ff;
+    border: none;
+    color: #FFF;
+    font-size: 13px;
+    padding: .7rem 1.2rem;
+}
+
+.div-h1-footer02{
+    margin-bottom: 2rem;
+}
+
+.li{
+    margin-bottom: .8rem;
+    color: #777777;
+    font-size: 14px;
+}
+
+.conteiner-img-footer01, .conteiner-img-footer02, .conteiner-img-footer03{
+    display: flex;
+}
+
+.div-h1-lastest-news{
+    margin-bottom: 1.5rem;
+}
+
+.businnes-promotion, .product, .effective-footer{
+    color: #FFF;
+    font-size: 14px;
+}
+
+.div-img-footer01, .div-img-footer02{
+    margin-bottom: .5rem;
+}
+
+.div-businnes-promotion, .div-product, .div-effective-footer{
+    margin-bottom: 1.6rem;
+    margin-left: .5rem;
+}
+
+.div-pair-footer{
+    margin-left: .5rem;
+}
+
+.pair-footer{
+    color: #777777;
+    font-size: 12px;
+}
+
+.div-follow-us-footer{
+    margin-bottom: 1.5rem;
+}
+
+.follow-us-footer{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.pair-footer02{
+    font-size: 14px;
+    color: #777777;
+}
+
+.div-icons-footer{
+    margin-top: 1rem;
+}
+
+.icon-footer{
+    border: solid 1px #0a89ff;
+    padding: .5rem;
+    margin-right: .2rem;
+    object-fit: contain;
+}
+
+.lista{
+    list-style-type: none;
+}
+
+.conteiner-footer01{
+    margin-top: 3rem;
+    margin-right: 4rem;
+}
+
+.conteiner-footer02{
+    margin-top: 3rem;
+    margin-right: 5rem;
+}
+
+.conteiner-footer03{
+    margin-right: 3.5rem;
+    margin-top: 4.7rem;
+}
+
+.conteiner-footer04{
+   margin-bottom: 4.7rem;
+}
+
+.footer02{
+    background-color: #131618;
+    text-align: center;
+    padding: 1.7rem;
+}
+
+.div-footer02{
+    margin-top: .5rem;
+}
+
+.h3-footer02{
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.link-footer02{
+    text-decoration: none;
+    color: #0a89ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
